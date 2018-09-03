@@ -116,10 +116,10 @@
 .my-center-line-img img{width: 30px;margin-top: 15px;}
 .my-center-line:first-child img,.my-center-line:nth-child(2) img{width: 22px;}
 .my-center-line-text{height:60px;line-height: 60px;font-size: 18px;color: #333333;float: left;width: 130px;}
-.my-center-line-edit{color: #0099ff;font-size: 16px;cursor: pointer;}
-.my-center-line-save{color: #0099ff;font-size: 16px;cursor: pointer;display: none;}
-.my-center-line-textr input{float: left;height:57px;width: 850px;border: 0;text-align: left;font-size:14px;outline: none;} 
-.my-center-line-textr input:disabled{background: white;color:#999999}
+.my-center-line-edit{color: #0099ff;font-size: 16px;cursor: pointer;float: right;}
+.my-center-line-save{color: #0099ff;font-size: 16px;cursor: pointer;display: none;float: right;}
+.my-center-line-textr input{float: left;height:30px;width: 400px;border: 0;text-align: left;font-size:14px;outline: none;box-shadow: 0 0 5px #0099FF;margin-top: 15px;padding-left: 10px;border-radius: 5px;} 
+.my-center-line-textr input:disabled{background: white;color:#999999;box-shadow: 0 0 0;}
 
 /*skill页面*/
 .skill-top{width: 100%;overflow-x: auto;height: 105px;box-sizing: border-box;white-space: nowrap;overflow-y: hidden;}
