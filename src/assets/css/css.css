@@ -48,7 +48,7 @@
 .index-select-center{width: 1200px;box-sizing: border-box;white-space: nowrap;margin: 0 auto;}
 .index-select-center>div{overflow: hidden;height: 378px;width: 280px;margin-right:20px;text-align: center;font-size: 16px;float: left;margin-top: 20px;}
 .index-select-center>div img{width: 100%;}
-.index-select-center>div div{color: #333333;box-sizing: border-box;width: 100%;border: 1px solid #e5e5e5;border-radius: 0 0 15px 15px;height: 80px;line-height: 80px;}
+.index-select-center>div div{color: #999999;box-sizing: border-box;width: 100%;border: 1px solid #e5e5e5;border-radius: 0 0 15px 15px;height: 80px;line-height: 80px;}
 .index-select-center>div:last-child{margin-right: 0;}
 
 /*evaluating页面*/
@@ -146,6 +146,17 @@
 .result-center-frame-line img{width: 45px;margin: 10px auto;}
 .result-center-frame-line:last-child{border: 0;}
 .result-center-frame-line-text{font-size: 16px;color: #333333;line-height: 20px;}
+.personal-table{margin: 65px 0;width: 1200px;margin: 0 auto;}
+.personal-table-li{width: 240px;height: 100px;box-sizing: border-box;border: 1px solid #dadada;float: left;margin-left: -1px;margin-top: -1px;}
+.personal-table-li-top{border-bottom: 1px solid #DADADA;height: 50px;width: 100%;text-align: center;font-size: 16px;color: #333333;line-height: 50px;position: relative;}
+.personal-table-li-top img{margin-top: 15px;}
+.personal-table-li-bottom{height: 50px;width: 100%;text-align: center;line-height: 50px;}
+.personal-table-li-bottom.or{color: #f86d07;}
+.personal-table-li-bottom.pr{color: #c94ce4;}
+.personal-table-li-bottom.bl{color: #3ca8fe;}
+.personal-table-li-bottom span:first-of-type{font-size: 24px;}
+.personal-table-li-bottom span:last-of-type{font-size: 16px;}
+
 
 .history-center{margin-top: 1rem;}
 .history-center-frame-header{box-sizing: border-box;padding-left:30px;height: 65px;line-height: 65px;font-size: 20px;color:#666666;border-bottom:1px solid #e5e5e5;}
